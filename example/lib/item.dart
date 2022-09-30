@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:customcheckbox/costom_check_box.dart';
+import 'package:customcheckbox/costomcheckbox.dart';
 
 class Item extends StatefulWidget {
   String name;
