@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:customcheckbox/costomcheckbox.dart';
+import 'package:customcheckbox/customcheckbox.dart';
 
 class Item extends StatefulWidget {
   String name;
@@ -56,7 +56,7 @@ class _ItemState extends State<Item> {
                   ),
                 ),
                 const Spacer(),
-                CostomCheckBox(
+                CustomCheckBox(
                   size: 25,
                   isChecked: widget.isCheck,
                   checkedColor: const Color(0xFF3940FF),
