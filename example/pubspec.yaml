@@ -30,7 +30,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  customcheckbox:
+  free_check_box:
     path: ../../customcheckbox
 
   # The following adds the Cupertino Icons font to your application.

@@ -1,9 +1,9 @@
-library customcheckbox;
+library free_check_box;
 
 import 'package:flutter/material.dart';
 
-class CustomCheckBox extends StatefulWidget {
-  const CustomCheckBox({
+class FreeCheckBox extends StatefulWidget {
+  const FreeCheckBox({
     Key? key,
     this.isChecked,
     this.checkedWidget,
@@ -47,10 +47,10 @@ class CustomCheckBox extends StatefulWidget {
   final double? widgetPadding;
 
   @override
-  _CustomCheckBoxState createState() => _CustomCheckBoxState();
+  _FreeCheckBoxState createState() => _FreeCheckBoxState();
 }
 
-class _CustomCheckBoxState extends State<CustomCheckBox> {
+class _FreeCheckBoxState extends State<FreeCheckBox> {
   bool? isChecked;
   late Duration animationDuration;
   double? size;
@@ -83,7 +83,7 @@ class _CustomCheckBoxState extends State<CustomCheckBox> {
   }
 
   @override
-  void didUpdateWidget(CustomCheckBox oldWidget) {
+  void didUpdateWidget(FreeCheckBox oldWidget) {
     uncheckedColor =
         widget.uncheckedColor ?? Theme.of(context).scaffoldBackgroundColor;
     if (isChecked != widget.isChecked) {

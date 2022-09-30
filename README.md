@@ -13,7 +13,7 @@ and the Flutter guide for
 
 ## Features
 
-customcheckbox is a ui component that It can help you build fully custom checkboxes.
+free_check_box is a ui component that It can help you build fully custom checkboxes.
 
 Support Android and iOS platforms
 
@@ -28,14 +28,14 @@ Run this command:
 With Flutter:
 
 ```
- $ flutter pub add customcheckbox
+ $ flutter pub add free_check_box
 ```
 
 This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
 
 ```
 dependencies:
-  customcheckbox: ^1.0.1
+  free_check_box: ^1.0.1
 ```
 
 Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn
@@ -44,7 +44,7 @@ more.
 ## Usage
 
 ```
-CostomCheckBox(
+FreeCheckBox(
   size: 25,
   isChecked: widget.isCheck,
   checkedColor: const Color(0xFF3940FF),
